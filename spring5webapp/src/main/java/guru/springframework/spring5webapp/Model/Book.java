@@ -13,7 +13,7 @@ public class Book {
     private Long id;
     private String title;
     private String isbn;
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "publisher_id")
     private Publisher publisher;
 

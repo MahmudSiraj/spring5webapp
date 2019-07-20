@@ -57,17 +57,4 @@ public class Publisher {
         return id != null ? id.equals(publisher.id) : publisher.id == null;
     }
 
-    @Override
-    public int hashCode() {
-        return id != null ? id.hashCode() : 0;
-    }
-
-    @Override
-    public String toString() {
-        return "Publisher{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                '}';
-    }
 }
